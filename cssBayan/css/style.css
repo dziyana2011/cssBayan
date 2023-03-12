@@ -1,0 +1,38 @@
+body {
+background-color: beige;    
+}
+.HEADER {
+font-family: 'Franklin Gothic Medium';
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+} 
+.WRAPPER {
+width: 1200px;
+height: auto;
+margin:150px auto;  
+display: flex;
+flex-direction: column;
+}
+.accord {
+display: flex;
+flex-direction: column;
+} 
+.accord-item {
+font-family: 'Franklin Gothic Medium';  
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 10px;
+}
+.meme {
+width: 387px;   
+height: 386px; 
+margin: 0px auto;
+}
+.accord-item{
+color: #00BFFF;    
+}
+#accord-item_1 {
+color: black 
+}
