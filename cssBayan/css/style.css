@@ -10,7 +10,7 @@ font-weight: 800;
 .WRAPPER {
 width: 1200px;
 height: auto;
-margin:150px auto;  
+margin: auto;  
 display: flex;
 flex-direction: column;
 }
@@ -18,6 +18,59 @@ flex-direction: column;
 display: flex;
 flex-direction: column;
 } 
+#two {
+opacity: 0; 
+width: 1px;
+height: 1px;
+}
+#two:hover {
+opacity: 1;
+width: auto;
+height: auto; 
+cursor: pointer;
+transition: 0.03s;
+}
+#three {
+opacity: 0; 
+width: 1px;
+height: 1px;
+}
+#three:hover {
+opacity: 1;
+width: auto;
+height: auto; 
+cursor: pointer;
+transition: 0.03s;
+}
+#four {
+opacity: 0; 
+width: 1px;
+height: 1px;
+}
+#four:hover {
+opacity: 1;
+width: auto;
+height: auto; 
+cursor: pointer;
+transition: 0.03s;
+}
+#five {
+opacity: 0; 
+width: 1px;
+height: 1px;
+}
+#five:hover {
+opacity: 1;
+width: auto;
+height: auto; 
+cursor: pointer;
+transition: 0.03s;
+}
+.total-accord-item {
+display: flex;   
+flex-direction: row; 
+justify-content: space-between;
+}
 .accord-item {
 font-family: 'Franklin Gothic Medium';  
 font-size: 24px;
